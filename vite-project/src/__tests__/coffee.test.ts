@@ -75,6 +75,6 @@ describe("OrderDrink", () => {
 		expect(() => orderDrink("Cappuccino")).not.toThrowError();
 	});
 	it("test orderDrink return true", () => {
-		expect(() => orderDrink("Latte")).toBe(true);
+		expect(orderDrink("Latte")).toBe(true);
 	});
 });

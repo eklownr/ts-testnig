@@ -7,7 +7,7 @@ const drinks: DrinkType[] = [
 	{ name: "Cappuccino", price: "3" },
 	{ name: "Latte", price: "4" },
 	{ name: "Americano", price: "2" },
-	{ name: "Mocha", price: "6" },
+	{ name: "Mocha", price: "5" },
 ];
 
 // return drink type and price

@@ -3,4 +3,4 @@
 run:
 pnpm test
 
-![vitest](vite-project/public/test.png)
+![vitest](./public/test.png)

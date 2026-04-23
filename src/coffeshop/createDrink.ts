@@ -12,7 +12,9 @@ const drinks: DrinkType[] = [
 
 // return drink type and price
 export function createDrink(type: string): DrinkType {
-	const drink: DrinkType = drinks.find((drink) => drink.name === type);
+	const drink: DrinkType | undefined = drinks.find(
+		(drink) => drink.name === type,
+	);
 	if (!drink) return { name: type, price: "sold out" };
 	return drink;
 }

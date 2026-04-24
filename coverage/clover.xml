@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1776967185995" clover="3.2.0">
-  <project timestamp="1776967185995" name="All files">
+<coverage generated="1777020144723" clover="3.2.0">
+  <project timestamp="1777020144723" name="All files">
     <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="7" methods="7" coveredmethods="7" elements="33" coveredelements="32" complexity="0" loc="18" ncloc="18" packages="2" files="2" classes="2"/>
     <package name="src">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="sum.ts" path="/home/eklow/dev/javascript/skola/ts-testnig/src/sum.ts">
+      <file name="sum.ts" path="/home/eklow/dev/skola-backend-2026/ts-testnig/src/sum.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.coffeshop">
       <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
-      <file name="createDrink.ts" path="/home/eklow/dev/javascript/skola/ts-testnig/src/coffeshop/createDrink.ts">
+      <file name="createDrink.ts" path="/home/eklow/dev/skola-backend-2026/ts-testnig/src/coffeshop/createDrink.ts">
         <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
         <line num="6" count="1" type="stmt"/>
         <line num="15" count="8" type="stmt"/>

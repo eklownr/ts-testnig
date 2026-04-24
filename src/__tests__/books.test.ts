@@ -15,13 +15,14 @@ describe("Book store tests", () => {
 		});
 	});
 
-	/*
 	it("test createDrink Latte", () => {
-		expect(createDrink("Latte")).toStrictEqual({
-			name: "Latte",
-			price: "4",
+		expect(findBook("1984")).toStrictEqual({
+			title: "1984",
+			author: "George Orwell",
+			price: "6",
 		});
 	});
+	/*
 	it("test createDrink Americano", () => {
 		expect(createDrink("Americano")).toStrictEqual({
 			name: "Americano",
@@ -82,5 +83,8 @@ describe("#test Buy book integration test", () => {
 	});
 	it("test buy book Dune true", () => {
 		expect(buyBook("Dune")).toBe(true);
+	});
+	it("test buy book NotExist true", () => {
+		expect(buyBook("NotExist")).toBe(false);
 	});
 });

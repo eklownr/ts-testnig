@@ -2,9 +2,8 @@ import { describe, expect, it } from "vitest";
 import {
 	findBook,
 	reservStock,
-	//buyBook,
+	buyBook,
 	confirmPurchase,
-	//	confirmPurchase,
 } from "../bookstore/shopbooks";
 
 describe("Book store tests", () => {
@@ -76,14 +75,12 @@ describe("confirmpurcase of books", () => {
 	});
 });
 
-/*
-describe("OrderDrink", () => {
-	it("test orderDrink", () => {
-		expect(() => orderDrink("Cappuccino")).not.toThrowError();
+// integration test
+describe("#test Buy book integration test", () => {
+	it("test buy book dune", () => {
+		expect(() => buyBook("dune")).not.toThrowError();
 	});
-	it("test orderDrink return true", () => {
-		expect(orderDrink("Latte")).toBe(true);
+	it("test buy book Dune true", () => {
+		expect(buyBook("Dune")).toBe(true);
 	});
 });
-
-*/

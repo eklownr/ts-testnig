@@ -2,7 +2,8 @@ import { describe, expect, it } from "vitest";
 import {
 	findBook,
 	reservStock,
-	//	buyBook,
+	//buyBook,
+	confirmPurchase,
 	//	confirmPurchase,
 } from "../bookstore/shopbooks";
 
@@ -53,7 +54,7 @@ describe("Book store tests", () => {
 });
 
 describe("Reserv a book and get ticket number", () => {
-	it("test prepareDrink Cappuccino", () => {
+	it("test resere book Dune", () => {
 		expect(reservStock("Dune")).toBeTypeOf("number");
 	});
 	it("test reserv book 1984 < 1000", () => {
@@ -64,18 +65,18 @@ describe("Reserv a book and get ticket number", () => {
 	});
 });
 
-/*
-describe("ProcessPayment", () => {
-	it("** test processPayment", () => {
-		expect(processPayment(1, 2)).toBe(true);
+describe("confirmpurcase of books", () => {
+	it("** test confirm book Dune", () => {
+		expect(confirmPurchase(1, 3)).toBe(true);
 	});
-	it("** test processPayment fail", () => {
-		expect(() => processPayment(1000, 2)).toThrowError(
+	it("** test confirm purchase fail", () => {
+		expect(() => confirmPurchase(1000, 2)).toThrowError(
 			"Invalid ticket number",
 		);
 	});
 });
 
+/*
 describe("OrderDrink", () => {
 	it("test orderDrink", () => {
 		expect(() => orderDrink("Cappuccino")).not.toThrowError();

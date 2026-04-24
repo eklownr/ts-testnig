@@ -3,8 +3,9 @@ import { describe, expect, it } from "vitest";
 
 describe("Book store tests", () => {
 	it("#test find book", () => {
-		expect(findBook("dune")).toStrictEqual({
-			name: "dune",
+		expect(findBook("Dune")).toStrictEqual({
+			title: "Dune",
+			author: "David Lynch",
 			price: "3",
 		});
 	});

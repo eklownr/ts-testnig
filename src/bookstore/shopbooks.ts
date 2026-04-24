@@ -16,7 +16,7 @@ export function findBook(title: string): bookType {
 	const book: bookType | undefined = books.find(
 		(book) => book.title === title,
 	);
-	if (!book) return { title: title, price: "sold out" };
+	if (!book) return { title: title, author:"not in store", price: "sold out" };
 	return book;
 }
 

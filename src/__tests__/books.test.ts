@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import {
-	findBook,
-	reservStock,
 	buyBook,
 	confirmPurchase,
+	findBook,
+	reservStock,
 } from "../bookstore/shopbooks";
 
 describe("Book store tests", () => {

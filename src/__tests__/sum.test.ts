@@ -1,5 +1,5 @@
+import { describe, expect, it } from "vitest";
 import sum from "../sum.ts";
-import { it, describe, expect } from "vitest";
 
 describe("Sum value from list.", () => {
 	it("test sum 0.", () => {

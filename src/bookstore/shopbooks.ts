@@ -1,6 +1,6 @@
 interface bookType {
 	title: string;
-    author?: string; // optional
+	author?: string; // optional
 	price: string;
 }
 
@@ -8,22 +8,20 @@ const books: bookType[] = [
 	{ title: "Dune", author: "David Lynch", price: "3" },
 	{ title: "We", author: "Yevgeny Zamyatin", price: "4" },
 	{ title: "1Q84", author: "Haruki Murakami", price: "2" },
-	{ title: "1984", author:"George Orwell", price: "6" },
+	{ title: "1984", author: "George Orwell", price: "6" },
 ];
 
 // return book title, author and price
 export function findBook(title: string): bookType {
-	const book: bookType | undefined = books.find(
-		(book) => book.title === title,
-	);
-	if (!book) return { title: title, author:"not in store", price: "sold out" };
+	const book: bookType | undefined = books.find((book) => book.title === title);
+	if (!book) return { title: title, author: "not in store", price: "sold out" };
 	return book;
 }
 
 export function reservStock(title: string): number {
 	console.log(`Reserving your book ${title}`);
 	const ticket: number = Math.floor(Math.random() * 999);
-    console.log(`Your reservation ticket: ${ticket}`)
+	console.log(`Your reservation ticket: ${ticket}`);
 	return ticket;
 }
 

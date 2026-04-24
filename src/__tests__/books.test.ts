@@ -1,10 +1,10 @@
-import {
-	findBook, 
-//	reservStock, 
-//	buyBook, 
-//	confirmPurchase,
-} from "../bookstore/shopbooks";
 import { describe, expect, it } from "vitest";
+import {
+	findBook,
+	//	reservStock,
+	//	buyBook,
+	//	confirmPurchase,
+} from "../bookstore/shopbooks";
 
 describe("Book store tests", () => {
 	it("#test find book", () => {

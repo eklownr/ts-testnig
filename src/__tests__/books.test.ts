@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
 	findBook,
-	//	reservStock,
+	reservStock,
 	//	buyBook,
 	//	confirmPurchase,
 } from "../bookstore/shopbooks";
@@ -52,19 +52,19 @@ describe("Book store tests", () => {
 	*/
 });
 
-/*
-describe("PrepareDrink ticket number", () => {
+describe("Reserv a book and get ticket number", () => {
 	it("test prepareDrink Cappuccino", () => {
-		expect(prepareDrink("Cappuccino")).toBeTypeOf("number");
+		expect(reservStock("Dune")).toBeTypeOf("number");
 	});
-	it("test prepareDrink Latte", () => {
-		expect(prepareDrink("Latte")).toBeLessThan(1000);
+	it("test reserv book 1984 < 1000", () => {
+		expect(reservStock("1984")).toBeLessThan(1000);
 	});
-	it("test prepareDrink Americano", () => {
-		expect(prepareDrink("Americano")).toBeGreaterThan(-1);
+	it("test reserv book 1984 > -1", () => {
+		expect(reservStock("1984")).toBeGreaterThan(-1);
 	});
 });
 
+/*
 describe("ProcessPayment", () => {
 	it("** test processPayment", () => {
 		expect(processPayment(1, 2)).toBe(true);

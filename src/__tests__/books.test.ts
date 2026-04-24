@@ -1,4 +1,9 @@
-import {findBook, reservStock, buyBook, confirmPurchase} from "../bookstore/shopbooks";
+import {
+	findBook, 
+//	reservStock, 
+//	buyBook, 
+//	confirmPurchase,
+} from "../bookstore/shopbooks";
 import { describe, expect, it } from "vitest";
 
 describe("Book store tests", () => {

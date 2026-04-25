@@ -4,7 +4,7 @@ interface bookType {
 	price: string;
 }
 
-const BookExist = {
+export const BookExist = {
 	"sold out": "sold out",
 	"not in store": "not in store",
 } as const;

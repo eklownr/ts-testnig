@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1777054897297" clover="3.2.0">
-  <project timestamp="1777054897297" name="All files">
+<coverage generated="1777102126056" clover="3.2.0">
+  <project timestamp="1777102126056" name="All files">
     <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="9" methods="5" coveredmethods="5" elements="36" coveredelements="35" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
-    <file name="shopbooks.ts" path="/home/eklow/dev/javascript/skola/ts-testnig/src/bookstore/shopbooks.ts">
+    <file name="shopbooks.ts" path="/home/eklow/dev/skola-backend-2026/ts-testnig/src/bookstore/shopbooks.ts">
       <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="9" methods="5" coveredmethods="5"/>
       <line num="7" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
-      <line num="21" count="5" type="stmt"/>
-      <line num="22" count="14" type="stmt"/>
-      <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="25" count="2" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="22" count="18" type="stmt"/>
+      <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="3" type="stmt"/>
       <line num="30" count="3" type="stmt"/>
       <line num="34" count="4" type="stmt"/>
       <line num="35" count="4" type="stmt"/>

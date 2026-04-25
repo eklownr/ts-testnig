@@ -5,9 +5,10 @@ import {
 	findBook,
 	reservStock,
 } from "../bookstore/shopbooks";
+import { BookExist } from "../bookstore/shopbooks";
 
 describe("Book store tests", () => {
-	it("#test find book", () => {
+	it("# test find book", () => {
 		expect(findBook("Dune")).toStrictEqual({
 			title: "Dune",
 			author: "David Lynch",
@@ -15,20 +16,22 @@ describe("Book store tests", () => {
 		});
 	});
 
-	it("test createDrink Latte", () => {
+	it("# test find book 1984", () => {
 		expect(findBook("1984")).toStrictEqual({
 			title: "1984",
 			author: "George Orwell",
 			price: "6",
 		});
 	});
-	/*
-	it("test createDrink Americano", () => {
-		expect(createDrink("Americano")).toStrictEqual({
-			name: "Americano",
-			price: "2",
+
+	it("# test Fail find book 1888", () => {
+		expect(findBook("1888")).toStrictEqual({
+			title: "1888",
+			author: BookExist["not in store"],
+			price: BookExist["sold out"],
 		});
 	});
+	/*
 	it("test createDrink Mocha", () => {
 		expect(createDrink("Mocha")).toStrictEqual({
 			name: "Mocha",

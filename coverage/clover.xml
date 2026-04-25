@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1777102126056" clover="3.2.0">
-  <project timestamp="1777102126056" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="9" methods="5" coveredmethods="5" elements="36" coveredelements="35" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
-    <file name="shopbooks.ts" path="/home/eklow/dev/skola-backend-2026/ts-testnig/src/bookstore/shopbooks.ts">
-      <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="9" methods="5" coveredmethods="5"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="21" count="6" type="stmt"/>
-      <line num="22" count="18" type="stmt"/>
-      <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="30" count="3" type="stmt"/>
-      <line num="34" count="4" type="stmt"/>
-      <line num="35" count="4" type="stmt"/>
-      <line num="36" count="4" type="stmt"/>
-      <line num="37" count="4" type="stmt"/>
-      <line num="41" count="3" type="cond" truecount="1" falsecount="1"/>
-      <line num="42" count="3" type="cond" truecount="4" falsecount="0"/>
-      <line num="43" count="2" type="stmt"/>
-      <line num="44" count="2" type="stmt"/>
-      <line num="49" count="3" type="stmt"/>
-      <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="52" count="1" type="stmt"/>
-      <line num="54" count="1" type="stmt"/>
-      <line num="56" count="1" type="stmt"/>
-      <line num="59" count="1" type="stmt"/>
+<coverage generated="1777105172255" clover="3.2.0">
+  <project timestamp="1777105172255" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="10" coveredelements="10" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+    <file name="sum.ts" path="/home/eklow/dev/skola-backend-2026/ts-testnig/src/sum.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="5" count="10" type="cond" truecount="4" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="11" count="9" type="stmt"/>
     </file>
   </project>
 </coverage>

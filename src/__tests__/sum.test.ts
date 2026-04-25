@@ -11,4 +11,13 @@ describe("Sum value from list.", () => {
 	it("test singel number", () => {
 		expect(sum(4)).toBe(4);
 	});
+	it("test sum -2.", () => {
+		expect(sum(-2)).toBe(-2);
+	});
+	it("test sum -2,-3,-4.", () => {
+		expect(sum(-2, -3, -4)).toBe(-9);
+	});
+	it("test sum a,b,c.", () => {
+		expect(() => sum("a", "b", "c")).toThrowError("not a valid number");
+	});
 });

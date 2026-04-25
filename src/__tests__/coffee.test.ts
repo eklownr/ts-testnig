@@ -64,7 +64,9 @@ describe("ProcessPayment", () => {
 		expect(processPayment(1, 2)).toBe(true);
 	});
 	it("** test processPayment fail", () => {
-		expect(() => processPayment(1000, 2)).toThrowError("Invalid ticket number");
+		expect(() => processPayment(1000, 2)).toThrowError(
+			"Invalid ticket number",
+		);
 	});
 });
 

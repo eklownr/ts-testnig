@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import {
+	BookExist,
 	buyBook,
 	confirmPurchase,
 	findBook,
 	reservStock,
 } from "../bookstore/shopbooks";
-import { BookExist } from "../bookstore/shopbooks";
 
 describe("Book store tests", () => {
 	it("# test find book", () => {

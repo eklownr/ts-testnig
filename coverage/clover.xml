@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1777105172255" clover="3.2.0">
-  <project timestamp="1777105172255" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="10" coveredelements="10" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+<coverage generated="1777105694347" clover="3.2.0">
+  <project timestamp="1777105694347" name="All files">
+    <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2" elements="10" coveredelements="8" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="sum.ts" path="/home/eklow/dev/skola-backend-2026/ts-testnig/src/sum.ts">
-      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <line num="4" count="6" type="stmt"/>
-      <line num="5" count="10" type="cond" truecount="4" falsecount="0"/>
-      <line num="6" count="1" type="stmt"/>
+      <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="9" type="cond" truecount="3" falsecount="1"/>
+      <line num="6" count="0" type="stmt"/>
       <line num="11" count="9" type="stmt"/>
     </file>
   </project>

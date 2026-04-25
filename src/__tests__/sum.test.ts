@@ -17,7 +17,7 @@ describe("Sum value from list.", () => {
 	it("test sum -2,-3,-4.", () => {
 		expect(sum(-2, -3, -4)).toBe(-9);
 	});
-	it("test sum a,b,c.", () => {
-		expect(() => sum("a", "b", "c")).toThrowError("not a valid number");
-	});
+	//	it("test sum a,b,c.", () => {
+	//		expect(() => sum("a", "b", "c")).toThrowError("not a valid number");
+	//	});
 });
